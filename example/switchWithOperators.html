@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwitchExampleOne</title>
+</head>
+<body>
+
+    <script>
+        let operator=prompt("Enter the opeartor") //taking input from user
+        let inputOne=20
+        let inputTwo=30                     //performing operations on this states
+        switch(operator)                    //by switching the values(or) ststes with the operator
+        {
+                case operator='+':                  
+                document.write(inputOne+inputTwo)
+                console.log(inputOne+inputTwo)
+                break;
+
+                case operator='-':
+                document.write(inputOne-inputTwo)
+                break;
+
+                case operator='*':
+                document.write(inputOne*inputTwo)
+                break;
+
+                case operator='%':
+                document.write(inputOne%inputTwo)
+                break;
+
+                case operator='/':
+                document.write(inputOne/inputTwo)
+                break;
+
+                default: document.write("please enter a valid operator")
+                //default is used to check if non specified value is entered it should throe exception 
+        }
+
+        
+    </script>
+    
+</body>
+</html>
